@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"no test specified\" && exit 0",
+    "build": "echo \"no build specified\" && exit 0",
     "release:prepare": "shipjs prepare",
     "release:trigger": "shipjs trigger"
   },
