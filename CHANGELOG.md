@@ -1,3 +1,12 @@
+# [0.2.0](https://github.com/jeetiss/try-shipjs/compare/v0.1.0...v0.2.0) (2019-11-26)
+
+
+### Features
+
+* add devault value ([1f9ab39](https://github.com/jeetiss/try-shipjs/commit/1f9ab39c629a606c553d17e695d0e6d9a34abb43))
+
+
+
 # [0.1.0](https://github.com/jeetiss/try-shipjs/compare/v0.0.2...v0.1.0) (2019-11-25)
 
 
