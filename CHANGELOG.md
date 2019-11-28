@@ -1,3 +1,12 @@
+# [0.3.0](https://github.com/jeetiss/try-shipjs/compare/v0.2.0...v0.3.0) (2019-11-28)
+
+
+### Features
+
+* add default value ([46de3bd](https://github.com/jeetiss/try-shipjs/commit/46de3bd))
+
+
+
 # [0.2.0](https://github.com/jeetiss/try-shipjs/compare/v0.1.0...v0.2.0) (2019-11-26)
 
 
