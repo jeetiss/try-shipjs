@@ -1,3 +1,19 @@
+# [0.6.0](https://github.com/jeetiss/try-shipjs/compare/v0.3.0...v0.6.0) (2019-12-02)
+
+
+### Bug Fixes
+
+* **action:** checkout master ([fe4f630](https://github.com/jeetiss/try-shipjs/commit/fe4f630c5b77469d2bb56541aea1e4be679aff96))
+* **action:** use gin switch ([7e24c95](https://github.com/jeetiss/try-shipjs/commit/7e24c954f287b540c56d34bc752945cacad33319))
+* add default value ([00a15ce](https://github.com/jeetiss/try-shipjs/commit/00a15cee50d0998cceb3385fc3dda4d852ca4e20))
+
+
+### Features
+
+* remove all default values ([267a358](https://github.com/jeetiss/try-shipjs/commit/267a358ad305418d97e8f43ef63ae7bc5785cb7b))
+
+
+
 ## [0.5.1](https://github.com/jeetiss/try-shipjs/compare/v0.3.0...v0.5.1) (2019-12-02)
 
 
