@@ -11,8 +11,7 @@ jobs:
       - uses: actions/checkout@master
       - uses: actions/setup-node@master
       - run: git switch master
-      - run: npm install
-      - run: npm run release:trigger
+      - run: npm whoami
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NODE_AUTH_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
