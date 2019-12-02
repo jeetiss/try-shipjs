@@ -1,3 +1,13 @@
+## [0.5.1](https://github.com/jeetiss/try-shipjs/compare/v0.3.0...v0.5.1) (2019-12-02)
+
+
+### Bug Fixes
+
+* **action:** checkout master ([fe4f630](https://github.com/jeetiss/try-shipjs/commit/fe4f630c5b77469d2bb56541aea1e4be679aff96))
+* add default value ([00a15ce](https://github.com/jeetiss/try-shipjs/commit/00a15cee50d0998cceb3385fc3dda4d852ca4e20))
+
+
+
 # [0.5.0](https://github.com/jeetiss/try-shipjs/compare/v0.3.0...v0.5.0) (2019-12-02)
 
 
