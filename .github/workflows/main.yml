@@ -16,4 +16,5 @@ jobs:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
       - run: git switch master
       - run: npm whoami
+        env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
