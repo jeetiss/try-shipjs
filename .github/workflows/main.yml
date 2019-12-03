@@ -6,6 +6,8 @@ on:
 jobs:
   build:
     name: Build
+    env:
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     runs-on: Ubuntu-latest
     steps:
       - uses: actions/checkout@master
@@ -13,10 +15,9 @@ jobs:
         with:
           registry-url: "https://registry.npmjs.org"
       - run: git switch master
-      - run: git remote add origin-with-token https://${{secrets.GITHUB_TOKEN}}@github.com/jeetiss/try-shipjs
-      - run: git push origin-with-token master  
+      - run: git remote add origin-with-token https://$GITHUB_TOKEN@github.com/jeetiss/try-shipjs
+      - run: git push origin-with-token master
         # - run: npm install
         # - run: npm run release:trigger
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
