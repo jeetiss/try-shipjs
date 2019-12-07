@@ -18,5 +18,11 @@ jobs:
           git config --global user.email "jeetiss@ya.ru"
           git config --global user.name "Dmitry Ivaknenko"
           npm run release:prepare -- --yes --no-browse
+          LAST_STATUS=${?}
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+      - uses: actions/github@master
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+        with:
+          args: comment "@${GITHUB_ACTOR} `shipjs prepare` done with code __${LAST_STATUS}__"
