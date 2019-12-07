@@ -14,6 +14,6 @@ jobs:
       - uses: actions/setup-node@master
       - run: git switch master
       - run: npm install
-      - run: npm run release:prepare
+      - run: npm run release:prepare -- --yes --no-browse
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
