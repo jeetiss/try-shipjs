@@ -1,3 +1,12 @@
+## 0.11.2 (2019-12-07)
+
+
+### Bug Fixes
+
+*  rigth yml config ([a79f29d](https://github.com/jeetiss/try-shipjs/commit/a79f29d03baa82fb25734d867ed221bdb7218822))
+
+
+
 ## 0.11.1 (2019-12-07)
 
 
