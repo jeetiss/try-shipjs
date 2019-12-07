@@ -23,6 +23,6 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
       - uses: actions/github@master
         env:
-          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          args: comment "@${GITHUB_ACTOR} `shipjs prepare` done with code __${LAST_STATUS}__"
+          args: comment "@$GITHUB_ACTOR `shipjs prepare` done with code __$LAST_STATUS__"
