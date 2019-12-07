@@ -25,18 +25,18 @@ jobs:
     if: success()
     needs: manual_prepare
     runs-on: Ubuntu-latest
-      steps:
+    steps:
       - uses: actions/github@master
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           args: comment "@${{ github.actor }} `shipjs prepare` done"
-  
+
   create_fail_comment:
     if: cancelled() || failure()
     needs: manual_prepare
     runs-on: Ubuntu-latest
-      steps:
+    steps:
       - uses: actions/github@master
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
