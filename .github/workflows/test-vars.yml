@@ -14,7 +14,7 @@ jobs:
         run: echo "$JOB_CONTEXT"
       - name: Dump steps context
         env:
-          STEPS_CONTEXT: ${{ toJson(steps) }}
+          STEPS_CONTEXT: ${{ toJson(steps.*.outputs) }}
         run: echo "$STEPS_CONTEXT"
       - name: Dump runner context
         env:
@@ -28,3 +28,7 @@ jobs:
         env:
           MATRIX_CONTEXT: ${{ toJson(matrix) }}
         run: echo "$MATRIX_CONTEXT"
+      - name: Dump success result
+        env:
+          SUCCESS_RESULT: ${{ success() }}
+        run: echo "$SUCCESS_RESULT"
