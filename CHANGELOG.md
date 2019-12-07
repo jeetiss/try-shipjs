@@ -1,3 +1,12 @@
+## 0.11.1 (2019-12-07)
+
+
+### Bug Fixes
+
+* add user info ([6464f97](https://github.com/jeetiss/try-shipjs/commit/6464f970b6e5e6c29b9f67d48cff92cd8fd36ed8))
+
+
+
 # [0.11.0](https://github.com/jeetiss/try-shipjs/compare/v0.3.0...v0.11.0) (2019-12-03)
 
 
