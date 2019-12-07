@@ -1,3 +1,12 @@
+## 0.11.2 (2019-12-07)
+
+
+### Bug Fixes
+
+* try different format ([705bdb5](https://github.com/jeetiss/try-shipjs/commit/705bdb59c4431285a525b359eba10ce8583d651a))
+
+
+
 ## 0.11.1 (2019-12-07)
 
 
