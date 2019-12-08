@@ -1,3 +1,12 @@
+# 0.12.0 (2019-12-08)
+
+
+### Features
+
+* shedule prepare ([20b8f65](https://github.com/jeetiss/try-shipjs/commit/20b8f65dcc60f49201d43e541707ae565b9c7414))
+
+
+
 ## 0.11.1 (2019-12-07)
 
 
