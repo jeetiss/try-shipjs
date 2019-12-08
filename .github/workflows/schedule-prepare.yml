@@ -7,4 +7,13 @@ jobs:
   schedule_prepare:
     runs-on: Ubuntu-latest
     steps:
-      - run: echo "prepare"
+      - uses: actions/checkout@master
+      - uses: actions/setup-node@master
+      - run: git switch master
+      - run: npm install
+      - run: |
+          git config --global user.email "jeetiss@ya.ru"
+          git config --global user.name "Dmitry Ivaknenko"
+      - run: npm run release:prepare -- --yes --no-browse
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
