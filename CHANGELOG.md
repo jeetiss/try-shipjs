@@ -1,3 +1,12 @@
+## 0.11.2 (2019-12-08)
+
+
+### Bug Fixes
+
+* run checkout ([6274de7](https://github.com/jeetiss/try-shipjs/commit/6274de748134c00d338e5ea913781aa85f2fffe8))
+
+
+
 ## 0.11.1 (2019-12-07)
 
 
