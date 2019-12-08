@@ -12,7 +12,9 @@ jobs:
     steps:
       - uses: actions/checkout@master
       - uses: actions/setup-node@master
-      - run: git checkout master
+      - run: |
+          git checkout master
+          git pull
       - run: npm install
       - run: |
           git config --global user.email "jeetiss@ya.ru"
