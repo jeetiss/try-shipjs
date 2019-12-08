@@ -1,3 +1,12 @@
+## 0.11.2 (2019-12-08)
+
+
+### Bug Fixes
+
+* run pull 🙏🏻 ([943023e](https://github.com/jeetiss/try-shipjs/commit/943023ea07b22059259883a39b2e754b92be1bcf))
+
+
+
 ## 0.11.1 (2019-12-07)
 
 
