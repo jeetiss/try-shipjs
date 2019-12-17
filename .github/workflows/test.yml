@@ -9,6 +9,8 @@ jobs:
     runs-on: Ubuntu-latest
     steps:
       - uses: actions/checkout@master
+        with:
+          fetch-depth: 0
       - uses: actions/setup-node@master
       - run: git switch master
       - run: git fetch --tags
