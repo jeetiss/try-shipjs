@@ -1,0 +1,14 @@
+name: test ship js
+on:
+  push:
+    branches:
+      - master
+jobs:
+  build:
+    name: Build
+    runs-on: Ubuntu-latest
+    steps:
+      - uses: actions/checkout@master
+      - uses: actions/setup-node@master
+      - run: git switch master
+      - run: git log v0.11.1..HEAD --pretty=format:%s
