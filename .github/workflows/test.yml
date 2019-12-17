@@ -11,4 +11,5 @@ jobs:
       - uses: actions/checkout@master
       - uses: actions/setup-node@master
       - run: git switch master
+      - run: git fetch --tags
       - run: git log v0.11.1..HEAD --pretty=format:%s
