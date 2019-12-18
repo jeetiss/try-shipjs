@@ -1,19 +1,23 @@
+
 name: Ship js Schedule Prepare
 on:
   schedule:
     # * is a special character in YAML so you have to quote this string
-    - cron:  '0 0 31 12 *'
+    - cron:  'Y'
 jobs:
   schedule_prepare:
     runs-on: Ubuntu-latest
     steps:
       - uses: actions/checkout@master
+        with:
+          fetch-depth: 0
+          ref: master
       - uses: actions/setup-node@master
-      - run: git switch master
       - run: npm install
       - run: |
-          git config --global user.email "jeetiss@ya.ru"
-          git config --global user.name "Dmitry Ivaknenko"
+          git config --global user.email 'jeetiss@yandex.ru'
+          git config --global user.name 'jeetiss'
       - run: npm run release:prepare -- --yes --no-browse
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+  

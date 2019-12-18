@@ -1,3 +1,4 @@
+
 name: Ship js Manual Prepare
 on:
   issue_comment:
@@ -17,8 +18,8 @@ jobs:
       - uses: actions/setup-node@master
       - run: npm install
       - run: |
-          git config --global user.email "jeetiss@ya.ru"
-          git config --global user.name "Dmitry Ivaknenko"
+          git config --global user.email 'jeetiss@yandex.ru'
+          git config --global user.name 'jeetiss'
       - run: npm run release:prepare -- --yes --no-browse
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
@@ -32,7 +33,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          args: comment "@${{ github.actor }} `shipjs prepare` done"
+          args: comment '@${{ github.actor }} `shipjs prepare` done'
 
   create_fail_comment:
     if: cancelled() || failure()
@@ -43,4 +44,5 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          args: comment "@${{ github.actor }} `shipjs prepare` fail"
+          args: comment '@${{ github.actor }} `shipjs prepare` fail'
+    
