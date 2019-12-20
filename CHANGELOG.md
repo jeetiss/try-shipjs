@@ -1,3 +1,27 @@
+# [0.12.0](https://github.com/jeetiss/try-shipjs/compare/v0.11.1...v0.12.0) (2019-12-20)
+
+
+### Bug Fixes
+
+*  rigth yml config ([a79f29d](https://github.com/jeetiss/try-shipjs/commit/a79f29d03baa82fb25734d867ed221bdb7218822))
+* github condition ([c6107a2](https://github.com/jeetiss/try-shipjs/commit/c6107a2671d76cc441b28e483ee246f698ff8530))
+* new format ([ce632ba](https://github.com/jeetiss/try-shipjs/commit/ce632ba6b12f26e38548a6350edb25f35ed1383c))
+* run checkout ([6274de7](https://github.com/jeetiss/try-shipjs/commit/6274de748134c00d338e5ea913781aa85f2fffe8))
+* run pull 🙏🏻 ([943023e](https://github.com/jeetiss/try-shipjs/commit/943023ea07b22059259883a39b2e754b92be1bcf))
+* schedule prepare ones in year ([53e8e80](https://github.com/jeetiss/try-shipjs/commit/53e8e80c10226a4eeee2a9238fe8c4d3815da1d4))
+* try different format ([705bdb5](https://github.com/jeetiss/try-shipjs/commit/705bdb59c4431285a525b359eba10ce8583d651a))
+* use double quotes ([84d9d92](https://github.com/jeetiss/try-shipjs/commit/84d9d92a2096c562623651c1ff5e032f9b318e96))
+
+
+### Features
+
+* add answer from github bot ([70581c5](https://github.com/jeetiss/try-shipjs/commit/70581c5d0990a4f2e105f7c8c8c130e3d7270c8f))
+* add slack incoming hook ([b67ea60](https://github.com/jeetiss/try-shipjs/commit/b67ea60cf1dda0f59e67d637a9ce088fecc273f0))
+* add test workflow ([ccd2fd7](https://github.com/jeetiss/try-shipjs/commit/ccd2fd7f9a76c3eba799a3651a3da74f7d1e9d25))
+* shedule prepare ([20b8f65](https://github.com/jeetiss/try-shipjs/commit/20b8f65dcc60f49201d43e541707ae565b9c7414))
+
+
+
 ## 0.11.1 (2019-12-07)
 
 
