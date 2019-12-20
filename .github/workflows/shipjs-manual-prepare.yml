@@ -1,3 +1,4 @@
+
 name: Ship js Manual Prepare
 on:
   issue_comment:
@@ -15,14 +16,18 @@ jobs:
           fetch-depth: 0
           ref: master
       - uses: actions/setup-node@master
-      - run: npm install
+      - run: |
+          if [ -f "yarn.lock" ]; then
+            yarn install
+          else
+            npm install
+          fi
       - run: |
           git config --global user.email "jeetiss@yandex.ru"
           git config --global user.name "jeetiss"
       - run: npm run release:prepare -- --yes --no-browse
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
-          SLACK_INCOMING_HOOK: ${{ secrets.SLACK_INCOMING_HOOK }}
 
   create_done_comment:
     if: success()
@@ -45,3 +50,4 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           args: comment "@${{ github.actor }} `shipjs prepare` fail"
+    
