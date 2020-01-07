@@ -1,3 +1,12 @@
+# [0.13.0](https://github.com/jeetiss/try-shipjs/compare/v0.12.0...v0.13.0) (2020-01-07)
+
+
+### Features
+
+* update sum ([61011f3](https://github.com/jeetiss/try-shipjs/commit/61011f36729bd3bb0c3c54294dae61443cbb5f49))
+
+
+
 # [0.12.0](https://github.com/jeetiss/try-shipjs/compare/v0.11.1...v0.12.0) (2019-12-28)
 
 
