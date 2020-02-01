@@ -1,3 +1,12 @@
+## [0.13.3](https://github.com/jeetiss/try-shipjs/compare/v0.13.2...v0.13.3) (2020-01-11)
+
+
+### Bug Fixes
+
+* use fixed version for all actions ([d6e5ce8](https://github.com/jeetiss/try-shipjs/commit/d6e5ce8c9553b83fdcc17a62574c823f40975f00))
+
+
+
 ## [0.13.2](https://github.com/jeetiss/try-shipjs/compare/v0.13.1...v0.13.2) (2020-01-08)
 
 
