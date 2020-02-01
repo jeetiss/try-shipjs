@@ -1,3 +1,17 @@
+# [0.14.0](https://github.com/jeetiss/try-shipjs/compare/v0.13.3...v0.14.0) (2020-02-01)
+
+
+### Bug Fixes
+
+* GITHUB_TOKEN ([f859a3e](https://github.com/jeetiss/try-shipjs/commit/f859a3e49a089f9d667800c4b5aa90117199d77f))
+
+
+### Features
+
+* add cowsay ([e3fb3fb](https://github.com/jeetiss/try-shipjs/commit/e3fb3fb6abd28f43ed82411157c398cc9925accf))
+
+
+
 ## [0.13.3](https://github.com/jeetiss/try-shipjs/compare/v0.13.2...v0.13.3) (2020-01-11)
 
 
