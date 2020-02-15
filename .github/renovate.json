@@ -4,7 +4,7 @@
     {
       "depTypeList": ["devDependencies"],
       "updateTypes": ["patch", "minor"],
-      "groupName": "devDependencies (non-major)"
+      "groupName": "dev dependencies (non-major)"
     }
   ]
 }
