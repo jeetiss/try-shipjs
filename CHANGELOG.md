@@ -1,10 +1,13 @@
-# [0.15.0](https://github.com/jeetiss/try-shipjs/compare/v0.14.0...v0.15.0) (2020-04-27)
+# [0.15.1](https://github.com/jeetiss/try-shipjs/compare/v0.15.0...v0.15.1) (2020-04-27)
 
 
 ### Bug Fixes
 
+
 * release action ([ebebf99](https://github.com/jeetiss/try-shipjs/commit/ebebf995f99d1eea1fb6aa17f660892ab1164564))
-* update GHA ([d4b7c20](https://github.com/jeetiss/try-shipjs/commit/d4b7c20f348eb854a1eb46e1475e4aeb4acb088a))
+
+
+# [0.15.0](https://github.com/jeetiss/try-shipjs/compare/v0.14.0...v0.15.0) (2020-04-27)
 
 
 ### Features
