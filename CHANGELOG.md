@@ -1,12 +1,3 @@
-## [0.14.1](https://github.com/jeetiss/try-shipjs/compare/v0.14.0...v0.14.1) (2020-04-27)
-
-
-### Bug Fixes
-
-* update GHA ([d4b7c20](https://github.com/jeetiss/try-shipjs/commit/d4b7c20f348eb854a1eb46e1475e4aeb4acb088a))
-
-
-
 # [0.14.0](https://github.com/jeetiss/try-shipjs/compare/v0.13.3...v0.14.0) (2020-02-01)
 
 
