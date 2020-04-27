@@ -3,5 +3,5 @@ module.exports = {
   afterPublish: ({ exec, version }) => {
     exec(`cowsay ${version} released`)
   },
-  mergeStrategy: { toSameBranch: ["master"] }
+  mergeStrategy: { toReleaseBranch: { master: "release" } }
 };
