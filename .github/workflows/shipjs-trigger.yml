@@ -17,6 +17,7 @@ jobs:
         with:
           registry-url: "https://npm.pkg.github.com"
       - run: npm ci
+      - run: git fetch
 
       - run: npm run release:trigger
         env:
