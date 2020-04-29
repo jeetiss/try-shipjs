@@ -1,3 +1,24 @@
+# [0.15.0](https://github.com/jeetiss/try-shipjs/compare/v0.14.0...v0.15.0) (2020-04-27)
+
+
+### Bug Fixes
+
+* release action ([ebebf99](https://github.com/jeetiss/try-shipjs/commit/ebebf995f99d1eea1fb6aa17f660892ab1164564))
+* update GHA ([d4b7c20](https://github.com/jeetiss/try-shipjs/commit/d4b7c20f348eb854a1eb46e1475e4aeb4acb088a))
+
+
+### Features
+
+* tune const ([93a794c](https://github.com/jeetiss/try-shipjs/commit/93a794cf2fcf818e9cbec85c540a83e963e24015))
+
+
+### Reverts
+
+* Revert "chore: prepare v0.14.1 (#48)" (#49) ([b152e37](https://github.com/jeetiss/try-shipjs/commit/b152e37cb0617292e4a0c30b4922d9c795c6727e)), closes [#48](https://github.com/jeetiss/try-shipjs/issues/48) [#49](https://github.com/jeetiss/try-shipjs/issues/49)
+* Revert "chore: prepare v0.14.1 (#46)" (#47) ([3ecccb1](https://github.com/jeetiss/try-shipjs/commit/3ecccb1fec0e12459708bef63d49425b4b0ca25c)), closes [#46](https://github.com/jeetiss/try-shipjs/issues/46) [#47](https://github.com/jeetiss/try-shipjs/issues/47)
+
+
+
 # [0.14.0](https://github.com/jeetiss/try-shipjs/compare/v0.13.3...v0.14.0) (2020-02-01)
 
 
