@@ -1,3 +1,12 @@
+# [0.18.0](https://github.com/jeetiss/try-shipjs/compare/v0.17.0...v0.18.0) (2020-04-29)
+
+
+### Features
+
+* add zero ([9d4916e](https://github.com/jeetiss/try-shipjs/commit/9d4916e8ad0a6c9216318337098755b28991b4a4))
+
+
+
 # [0.17.0](https://github.com/jeetiss/try-shipjs/compare/v0.16.0...v0.17.0) (2020-04-29)
 
 
