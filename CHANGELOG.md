@@ -1,3 +1,13 @@
+# [0.17.0](https://github.com/jeetiss/try-shipjs/compare/v0.16.0...v0.17.0) (2020-04-29)
+
+
+### Features
+
+* new default ([ab0ff26](https://github.com/jeetiss/try-shipjs/commit/ab0ff265ee4ab9f3e9e335b38f0e04883d01d9e6))
+* woop ([ba3a71f](https://github.com/jeetiss/try-shipjs/commit/ba3a71f421377207b3ea1a4a17a811a20bd6fe7f))
+
+
+
 # [0.14.0](https://github.com/jeetiss/try-shipjs/compare/v0.13.3...v0.14.0) (2020-02-01)
 
 
