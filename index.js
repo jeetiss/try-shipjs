@@ -1,2 +1,2 @@
-export default (a, b) => a + b + 100000
+export default (a, b) => a + b + 1000000
  
