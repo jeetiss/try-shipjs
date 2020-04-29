@@ -1,3 +1,12 @@
+# [0.16.0](https://github.com/jeetiss/try-shipjs/compare/v0.15.0...v0.16.0) (2020-04-29)
+
+
+### Features
+
+* change defaul ([9257c2b](https://github.com/jeetiss/try-shipjs/commit/9257c2b3a0349b52d455641a074775d248a19571))
+
+
+
 # [0.14.0](https://github.com/jeetiss/try-shipjs/compare/v0.13.3...v0.14.0) (2020-02-01)
 
 
