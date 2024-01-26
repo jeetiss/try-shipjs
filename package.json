@@ -21,8 +21,8 @@
   },
   "homepage": "https://github.com/jeetiss/try-shipjs#readme",
   "devDependencies": {
-    "cowsay": "1.4.0",
-    "shipjs": "0.18.2"
+    "cowsay": "1.6.0",
+    "shipjs": "0.26.3"
   },
   "dependencies": {
     "react": "^16.1.0"
